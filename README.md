@@ -1,27 +1,28 @@
-# Fff
+Lancer le serveur json : json-server --watch data.json 
+Puis le serveur local de l'app : ng serve
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
 
-## Development server
+README 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+La liste de DD (4 heures)
+Tous documents autorisés
+Communication interdite
+Enoncé :
+Votre client la Fédération Francaise de Football vous demande de créer une application afin
+de permettre la gestion des joueurs selectionés en équipe de France
+Cette application devra être présenté avec le menu ci-dessous :
+- Une page de présentation de la liste complète présentant les joueurs
+- Une page qui permettra l’ajout d’un nouveau joueur
+- Une page qui affichera la fiche détaillée d’un joueur
+Nous ne devrons pas ajouté plus de 23 joueurs sur cette liste. Une fois la limite atteinte, le
+liens ou bouton d’ajout de joueur disparaîtra.
+Tous les joueurs devront être présenté sur la page de listing en fonction de leur poste en
+affichant en premier les gardiens, puis les défenseurs, les milieux de terrain et enfin les
+attaquants.
+Didier souhaiterait aussi pouvoir supprimer les joueurs de la liste en cas de blessure entre le
+moment ou il a fait sa liste et le moment ou la compétition commencera.
+Un joueur sera caractérisé par :
+- Un nom
+- Un prénom
+- Un poste
+- Une photo
