@@ -1,0 +1,52 @@
+<h1 class="mb-5 mt-5 text-center">Modification du joueur</h1>
+<div *ngIf="playerForm" class="container mt-5 mb-5 form-container gestion">
+  <form #form="ngForm" class="mb-5" (ngSubmit)="submitEdit()">
+    <div class="form-group">
+      <label for="nom">Nom</label>
+      <input type="text" class="form-control mb-3" placeholder="Nom du joueur" id="nom" name="nom" #nom="ngModel"
+        maxlength="50" [(ngModel)]="playerForm.nom">
+    </div>
+    <div class="form-group">
+      <label for="prenom">Prénom</label>
+      <input type="text" class="form-control mb-3" placeholder="Prenom" id="prenom" name="prenom" #prenom="ngModel"
+        maxlength="50" [(ngModel)]="playerForm.prenom">
+    </div>
+    <div class="mt-5 mb-5 d-flex justify-content-center">
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Gardien de but"
+          #poste="ngModel" maxlength="50" [(ngModel)]="playerForm.poste">
+        <label class="form-check-label" for="poste">Gardien</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Défenseur"
+          #poste="ngModel" maxlength="50" [(ngModel)]="playerForm.poste">
+        <label class="form-check-label" for="poste">Défenseur</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Milieu"
+          #poste="ngModel" maxlength="50" [(ngModel)]="playerForm.poste">
+        <label class="form-check-label" for="poste">Milieu</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Attaquant"
+          #poste="ngModel" maxlength="50" [(ngModel)]="playerForm.poste">
+        <label class="form-check-label" for="poste">Attaquant</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="urlImage">Url de la photo</label>
+      <input type="text" class="form-control mb-3" placeholder="Url de l'image" id="urlImage" name="urlImage"
+        #urlImage="ngModel" maxlength="200" [(ngModel)]="playerForm.image">
+    </div>
+    <div class="bouton-form mt-5 d-flex justify-content-between ">
+      <button class="btn btn-success ms-3" type="submit">MODIFIER</button>
+      <button *ngIf="playerForm.id" (click)="removeOne(playerForm.id)" class="btn btn-warning me-3">SUPPRIMER LE
+        JOUEUR</button>
+    </div>
+  </form>
+  <div class="row">
+    <div class="d-flex justify-content-evenly">
+      <button routerLink="/admin" class="btn btn-danger mb-4">RETOUR AU CHOIX DES JOUEURS</button>
+    </div>
+  </div>
+</div>

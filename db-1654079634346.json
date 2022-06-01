@@ -1,0 +1,18 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "nom": "Zidane",
+      "prenom": "Zinedine",
+      "poste": "Millieu",
+      "image": "https://thumbs.coleka.com/media/item/201801/15/fifa-world-cup-germany-2006-zinedine-zidane-france-467.webp"
+    },
+    {
+      "id": 2,
+      "nom": "Voller",
+      "prenom": "Rudi",
+      "poste": "Attaquant",
+      "image": "https://www.coleka.com/media/item/201912/29/foot-94-en-images-rudi-voller-marseille-144_b3esy.webp"
+    }
+  ]
+}

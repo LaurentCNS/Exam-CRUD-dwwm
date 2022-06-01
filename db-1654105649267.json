@@ -1,0 +1,46 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "nom": "Zidane",
+      "prenom": "Zinedine",
+      "poste": "Millieu",
+      "image": "https://thumbs.coleka.com/media/item/201801/15/fifa-world-cup-germany-2006-zinedine-zidane-france-467.webp"
+    },
+    {
+      "id": 2,
+      "nom": "Volleur",
+      "prenom": "Rudi",
+      "poste": "Attaquant",
+      "image": "https://www.coleka.com/media/item/201912/29/foot-94-en-images-rudi-voller-marseille-144_b3esy.webp"
+    },
+    {
+      "nom": "Coeck",
+      "prenom": "Ludo",
+      "poste": "Défenseur",
+      "image": "https://3.bp.blogspot.com/-RTxia_HIjKg/Wzpw3wdtBsI/AAAAAAACQXI/PjGPt3ojXXsD-PTQ9HY-R9-goiXspUUuACLcBGAs/s1600/84%2BPanini%2B-%2BEuro%2B84%2B-00098.jpg",
+      "id": 3
+    },
+    {
+      "nom": "Jan",
+      "prenom": "Ceulemans",
+      "poste": "Défenseur",
+      "image": "https://2.bp.blogspot.com/-2ZYWp5_SJKE/Wzpw5u5Db7I/AAAAAAACQXk/uyRmJrClIpU91A84kw6lXMqqLMbEmAp8wCLcBGAs/s1600/84%2BPanini%2B-%2BEuro%2B84%2B-00105.jpg",
+      "id": 4
+    },
+    {
+      "nom": "Per",
+      "prenom": "Friman",
+      "poste": "Attaquant",
+      "image": "https://4.bp.blogspot.com/-bXqcMx4AnM4/WzpuYQaeAbI/AAAAAAACQVY/5wZZIrNAaJwoaYw-RtpNFu0iXIWh8sFAQCLcBGAs/s1600/84%2BPanini%2B-%2BEuro%2B84%2B-00073.jpg",
+      "id": 5
+    },
+    {
+      "nom": "Michel",
+      "prenom": "Platini",
+      "poste": "Attaquant",
+      "image": "https://thumbs.coleka.com/media/item/201710/17/mexico-86-world-cup-michel-platini-france-175.webp",
+      "id": 6
+    }
+  ]
+}

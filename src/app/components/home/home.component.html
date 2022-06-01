@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row mb-5">
+    <div class="text-center mt-5">
+      <h1>Joueurs selectionés en équipe de France</h1>
+    </div>
+    <div *ngFor="let item of playersSort ;" class="col-lg-4 col-12 mt-5">
+      <div class="card text-center" style="width: 18rem;">
+        <img src="{{item.image}}" class="card-img-top photo" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.prenom}} {{item.nom}}</h5>
+          <p class="card-text">{{item.poste}}</p> 
+          <button [routerLink]="['/view', item.id]" class="btn btn-success" >Voir le joueur</button>     
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
