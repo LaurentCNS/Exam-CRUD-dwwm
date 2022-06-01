@@ -27,3 +27,4 @@ Un joueur sera caractérisé par :
 - Un prénom
 - Un poste
 - Une photo
+
