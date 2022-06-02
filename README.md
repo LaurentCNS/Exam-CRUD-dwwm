@@ -1,5 +1,6 @@
-Lancer le serveur json : json-server --watch data.json 
-Puis le serveur local de l'app : ng serve
+- Dans la console "npm install"
+- Lancer le serveur json : "json-server --watch data.json"
+- Lancer le serveur local de l'app : "ng serve"
 
 
 README 
@@ -26,3 +27,4 @@ Un joueur sera caractérisé par :
 - Un prénom
 - Un poste
 - Une photo
+
