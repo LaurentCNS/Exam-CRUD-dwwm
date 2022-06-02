@@ -1,5 +1,12 @@
 <div class="container">
   <div class="row">
+    <div *ngIf="!players" class="loader">
+      <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </div>
     <div class="text-center mt-5">
       <h1>Gestion des joueurs</h1>
     </div>
@@ -11,7 +18,7 @@
             <th scope="col">Nom</th>
             <th scope="col">Prénom</th>
             <th scope="col">Poste</th>
-            <th scope="col">Voir</th>
+            <th scope="col">Edit</th>
           </tr>
         </thead>
         <tbody>

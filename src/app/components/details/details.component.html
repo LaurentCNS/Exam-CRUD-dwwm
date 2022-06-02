@@ -39,9 +39,9 @@
         #urlImage="ngModel" maxlength="200" [(ngModel)]="playerForm.image">
     </div>
     <div class="bouton-form mt-5 d-flex justify-content-between ">
-      <button class="btn btn-success ms-3" type="submit">MODIFIER</button>
       <button *ngIf="playerForm.id" (click)="removeOne(playerForm.id)" class="btn btn-warning me-3">SUPPRIMER LE
         JOUEUR</button>
+      <button class="btn btn-success ms-3" type="submit">MODIFIER LE JOUEUR</button>
     </div>
   </form>
   <div class="row">

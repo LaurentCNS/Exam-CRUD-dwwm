@@ -1,5 +1,9 @@
 <div class="container mt-5 mb-5 form-container">
+  
   <h1 class="mb-5 text-center">Ajout d'un nouveau joueur</h1>
+  <div *ngIf="totalPlayers.length >= 23" >
+    <h5 class="text-danger">MAX 23 JOUEURS</h5>
+  </div>  
   <form #form="ngForm" class="mb-5 gestion" (ngSubmit)="submitEdit()">
     <div class="form-group">
       <label for="nom">Nom</label>
